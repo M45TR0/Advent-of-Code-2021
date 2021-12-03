@@ -14,7 +14,6 @@ public class Day1{
                 count++;
             }
             comp1 = comp2;
-
         }
         System.out.println(count);
     }
