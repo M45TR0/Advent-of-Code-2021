@@ -4,13 +4,12 @@ import java.util.Scanner;
 
 public class Day3 {
     public static void main(String[] args) throws FileNotFoundException {
+
         int zero;
         int one;
-
         Scanner input = new Scanner(new File("./src/input3.txt"));
         String length = input.nextLine();
         int[] gamma = new int[length.length()];
-        int epsilon = 0;
         for (int i = 0; i < length.length(); i++){
             zero = 0;
             one = 0;
